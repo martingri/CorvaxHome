@@ -18,8 +18,8 @@ Vagrant.configure("2") do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-  config.vm.synced_folder "../app-working-folder", "/app-working-folder"
-  config.vm.synced_folder "../../", "/MLab-Base"
+  # config.vm.synced_folder "../app-working-folder", "/app-working-folder"
+  config.vm.synced_folder "../", "/CorvaxHome"
   
   # Setup the puppet provisioning
   config.vm.provision :puppet do |puppet|
