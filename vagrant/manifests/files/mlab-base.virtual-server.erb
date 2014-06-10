@@ -1,0 +1,18 @@
+<VirtualHost 192.168.33.10:80>
+    ServerName precise32
+    DocumentRoot /MLab-Base/src/public
+    ErrorLog /var/log/apache2/mlab-base.log
+    SetEnv APPLICATION_ENV "development"
+    AssignUserID vagrant vagrant
+    # img, js, css alias
+    AliasMatch /([^/]+?)-public/(.*) /MLab-Base/src/module/$1/public/$2
+    # Market image 
+    AliasMatch /app-image/([^/]+?)/([^/]+?)/(.*) /app-working-folder/market-repository/$1/$2/img/$3
+    <Directory /MLab-Base/src/public>
+    	Options Indexes FollowSymLinks
+        DirectoryIndex index.php
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>

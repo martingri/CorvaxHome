@@ -1,0 +1,14 @@
+<VirtualHost 192.168.33.10:8080>
+    ServerName precise32-8080
+    DocumentRoot /home/vagrant/phpmyadmin
+    ErrorLog /var/log/apache2/phpmyadmin-base.log
+    SetEnv APPLICATION_ENV "development"
+    AssignUserID vagrant vagrant
+    <Directory /home/vagrant/phpmyadmin>
+        Options Indexes FollowSymLinks
+        DirectoryIndex index.php
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>

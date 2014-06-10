@@ -1,0 +1,18 @@
+<?php
+
+$settings = array(
+    // Temp adjustment for the compiler in Vagrant
+    "compiler_working_folder" => "/app-working-folder/compiler-working",
+    "compiled_repository" => "/app-working-folder/compiled",
+    "supported_platforms" => array("android"),
+    "platform_configs" => array(
+       "android" => array(
+            "queue_path" => "queue",
+        ),
+    ),
+);
+                
+                
+return array(
+    'compiler' => $settings
+);

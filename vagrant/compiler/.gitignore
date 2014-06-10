@@ -1,0 +1,5 @@
+android-sdk-linux
+cordova-2.*.0
+*.tgz
+*.zip
+.vagrant
