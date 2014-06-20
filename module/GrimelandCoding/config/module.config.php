@@ -17,7 +17,7 @@ return array(
             // new controllers and actions without needing to create a new
             // module. Simply drop new controllers in, and you can access them
             // using the path /corvax-home/:controller/:action
-            'corvax-home' => array(
+            'grimeland-home' => array(
                 'type'    => 'Literal',
                 'options' => array(
                     'route'    => '/grimeland-coding',
@@ -78,7 +78,7 @@ return array(
         'exception_template'       => 'error/index',
         'template_map' => array(
             'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
-            'corvax-home/index/index' => __DIR__ . '/../view/corvax-home/index/index.phtml',
+            'grimeland-coding/index/index' => __DIR__ . '/../view/grimeland-coding/index/index.phtml',
             'error/404'               => __DIR__ . '/../view/error/404.phtml',
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
         ),
