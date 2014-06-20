@@ -8,7 +8,7 @@ return array(
                 'options' => array(
                     'route'    => '/',
                     'defaults' => array(
-                        'controller' => 'CorvaxHome\Controller\Index',
+                        'controller' => 'GrimelandCoding\Controller\Index',
                         'action'     => 'index',
                     ),
                 ),
