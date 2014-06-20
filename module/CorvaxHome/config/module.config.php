@@ -66,7 +66,8 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'CorvaxHome\Controller\Index' => 'CorvaxHome\Controller\IndexController'
+            'CorvaxHome\Controller\Index' => 'CorvaxHome\Controller\IndexController',
+            'CorvaxHome\Controller\Grayscale' => 'CorvaxHome\Controller\GrayscaleController'
         ),
     ),
     'view_manager' => array(
