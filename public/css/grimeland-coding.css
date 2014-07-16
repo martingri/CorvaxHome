@@ -1,0 +1,9 @@
+.company-horizontal-line {
+    width: 100%; 
+    height: 1px; 
+    background: #fff; 
+    overflow: hidden;
+}
+.reference-img {
+    height: 23px; 
+}
