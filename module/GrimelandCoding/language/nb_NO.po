@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ZendSkeletonApplication\n"
+"Project-Id-Version: GrimelandHome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-05 22:17-0700\n"
-"PO-Revision-Date: 2012-10-20 15:20+0100\n"
-"Last-Translator: Sven Anders Robbestad <robbestad@gmail.com>\n"
-"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"POT-Creation-Date: 2014-07-16 09:38+0100\n"
+"PO-Revision-Date: 2014-07-16 09:40+0100\n"
+"Last-Translator: Martin Grimeland <martin.grimeland@gmail.com>\n"
+"Language-Team: Martin Grimeland <martin.grimeland>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,172 +13,391 @@ msgstr ""
 "X-Poedit-KeywordsList: translate\n"
 "X-Poedit-Basepath: .\n"
 "X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-0: /home/marting/vagrant-projects/CorvaxHome/module/"
+"GrimelandCoding/view\n"
 
-#: ../view/layout/layout.phtml:6 ../view/layout/layout.phtml:33
-msgid "Skeleton Application"
-msgstr "Skjelettapplikasjon"
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout.phtml:32
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:8
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:93
+msgid "Grimeland Coding"
+msgstr ""
 
-#: ../view/layout/layout.phtml:36
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout.phtml:44
+msgid "ABOUT"
+msgstr "OM"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout.phtml:47
+msgid "EXPERTISE"
+msgstr "TJENESTER"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout.phtml:50
+msgid "REFERENCES"
+msgstr "REFERANSER"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout.phtml:53
+msgid "CONTACT US"
+msgstr "TA KONTAKT"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout-old.phtml:36
+msgid "Corvax Consulting"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout-old.phtml:40
 msgid "Home"
 msgstr "Hjem"
 
-#: ../view/layout/layout.phtml:50
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout-old.phtml:49
 msgid "All rights reserved."
 msgstr "Alle rettigheter reservert."
 
-#: ../view/application/index/index.phtml:2
-#, php-format
-msgid "Welcome to %sZend Framework 2%s"
-msgstr "Velkommen til %sZend Framework 2%s"
-
-#: ../view/application/index/index.phtml:3
-#, php-format
-msgid ""
-"Congratulations! You have successfully installed the %sZF2 Skeleton "
-"Application%s. You are currently running Zend Framework version %s. This "
-"skeleton can serve as a simple starting point for you to begin building your "
-"application on ZF2."
-msgstr ""
-"Gratulerer! Du har installert  %sZF2 Skjelettapplikasjon%s, Du bruker "
-"akkurat nå versjon %s av Zend Framework. Dette skjelettet kan brukes som et "
-"enkelt utgangspunkt når du begynner å bygge din applikasjon med ZF2."
-
-#: ../view/application/index/index.phtml:4
-msgid "Fork Zend Framework 2 on GitHub"
-msgstr "Forgren Zend Framework 2 på GitHub"
-
-#: ../view/application/index/index.phtml:10
-msgid "Follow Development"
-msgstr "Følg Utviklingen"
-
-#: ../view/application/index/index.phtml:11
-#, php-format
-msgid ""
-"Zend Framework 2 is under active development. If you are interested in "
-"following the development of ZF2, there is a special ZF2 portal on the "
-"official Zend Framework website which provides links to the ZF2 %swiki%s, "
-"%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
-"staying up to date with the latest developments!"
-msgstr ""
-"ZF2 er i aktiv utvikling. Hvis du er interessert i å følge utviklingen så "
-"finnes det en spesiell ZF2-portal på den offisielle hjemmesiden til Zend "
-"Framework som inneholder lenker til ZF2 %swiki%s, %sdev blog%s, %sissue "
-"tracker%s, og mye mer. Det er en flott ressurs for deg som vil holde deg "
-"oppdatert!"
-
-#: ../view/application/index/index.phtml:12
-msgid "ZF2 Development Portal"
-msgstr "ZF2 Utviklingsportal"
-
-#: ../view/application/index/index.phtml:16
-msgid "Discover Modules"
-msgstr "Oppdag Moduler"
-
-#: ../view/application/index/index.phtml:17
-#, php-format
-msgid ""
-"The community is working on developing a community site to serve as a "
-"repository and gallery for ZF2 modules. The project is available %son GitHub"
-"%s. The site is currently live and currently contains a list of some of the "
-"modules already available for ZF2."
-msgstr ""
-"Nettsamfunnet arbeider med å utvikle en spesiell samfunnsside som kan tjene "
-"som et bibliotek og galleri for ZF2-moduler. Prosjektet er tilgjengelig %spå "
-"GitHub%s. Nettstedet  inneholder for tiden en liste med enkelte av modulene "
-"som er tilgjengelig for Zend Framework 2."
-
-#: ../view/application/index/index.phtml:18
-msgid "Explore ZF2 Modules"
-msgstr "Utforsk ZF2-moduler"
-
-#: ../view/application/index/index.phtml:22
-msgid "Help &amp; Support"
-msgstr "Hjelp &amp; Støtte"
-
-#: ../view/application/index/index.phtml:23
-#, php-format
-msgid ""
-"If you need any help or support while developing with ZF2, you may reach us "
-"via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
-"feedback you may have regarding the beta releases. Alternatively, you may "
-"subscribe and post questions to the %smailing lists%s."
-msgstr ""
-"Hvis du trenger hjelp eller støtte mens du utvikler med ZF2 så kan du nå oss "
-"via IRC: %s#zftalk on Freenode%s. Vi hører gjerne fra deg om du har "
-"spørsmål eller tilbakemeldinger på betautgavene. Du kan også abonnere og "
-"stille spørsmål på våre %smailinglister%s."
-
-#: ../view/application/index/index.phtml:24
-msgid "Ping us on IRC"
-msgstr "Ping oss på IRC"
-
-#: ../view/error/index.phtml:1
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:1
 msgid "An error occurred"
 msgstr "En feil har oppstått"
 
-#: ../view/error/index.phtml:8
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:8
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:53
 msgid "Additional information"
 msgstr "Ytterligere informasjon"
 
-#: ../view/error/index.phtml:11 ../view/error/index.phtml:35
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:11
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:35
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:56
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:80
 msgid "File"
 msgstr "Fil"
 
-#: ../view/error/index.phtml:15 ../view/error/index.phtml:39
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:15
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:39
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:60
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:84
 msgid "Message"
 msgstr "Beskjed"
 
-#: ../view/error/index.phtml:19 ../view/error/index.phtml:43
-#: ../view/error/404.phtml:55
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:19
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:43
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:64
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:88
 msgid "Stack trace"
 msgstr "Stakkspor"
 
-#: ../view/error/index.phtml:29
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:29
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:74
 msgid "Previous exceptions"
 msgstr "Forrige unntak"
 
-#: ../view/error/index.phtml:58
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/index.phtml:58
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:103
 msgid "No Exception available"
 msgstr "Ingen unntak tilgjengelig"
 
-#: ../view/error/404.phtml:1
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:1
 msgid "A 404 error occurred"
 msgstr "En 404 feil oppsto"
 
-#: ../view/error/404.phtml:10
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:10
 msgid "The requested controller was unable to dispatch the request."
 msgstr "Den valgte kontrolleren kunne ikke håndtere forespørselen."
 
-#: ../view/error/404.phtml:13
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:13
 msgid ""
 "The requested controller could not be mapped to an existing controller class."
 msgstr ""
 "Den valgte kontrolleren kunne ikke knyttes opp mot en eksisterende "
 "kontrollerklasse."
 
-#: ../view/error/404.phtml:16
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:16
 msgid "The requested controller was not dispatchable."
 msgstr "Den forspurte kontrolleren kunne ikke brukes."
 
-#: ../view/error/404.phtml:19
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:19
 msgid "The requested URL could not be matched by routing."
 msgstr "Den angitte URL kunne ikke finnes i rutingoppsettet"
 
-#: ../view/error/404.phtml:22
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:22
 msgid "We cannot determine at this time why a 404 was generated."
 msgstr ""
 "På dette tidspunkt kan vi ikke bestemme årsaken til at en 404 ble generert."
 
-#: ../view/error/404.phtml:34
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:34
 msgid "Controller"
 msgstr "Kontroller"
 
-#: ../view/error/404.phtml:41
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/error/404.phtml:41
 #, php-format
 msgid "resolves to %s"
 msgstr "løser til %s"
 
-#: ../view/error/404.phtml:51
-msgid "Exception"
-msgstr "Unntak"
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:12
+msgid "elevator pitch grimeland coding"
+msgstr ""
+"Grimeland Coding vil lede produktutviklingen i din nye satsning, styrke ditt "
+"utviklingsteam, eller midlertidig erstatte et sentralt team-medlem."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:29
+msgid "About Grimeland Coding"
+msgstr "Om Grimeland Coding"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:32
+msgid "who is grimeland coding"
+msgstr ""
+"Grimeland Coding er drevet av Martin Grimeland, og tilbyr IT-konsulentarbeid "
+"som systemutvikler og clean code workshops. Martin har jobbet med IT siden "
+"2006. “Jeg er en Clean Code evangelist og som systemutvikler brenner jeg for "
+"å løfte kodekvaliteten i bransjen. Jeg har derfor også utviklet og holdt "
+"workshops i Clean Code og sett gode resultater.Jeg jobber som systemutvikler "
+"i backend, ofte som Lead Developer med ansvar for utvikling og leveranse. "
+"Jeg har jobbet mye med å ta konsepter fra idé til ferdig produkt, gjennom "
+"iterative prosesser av bearbeide konseptet, utvikling, testing og "
+"produksjonssetting.Min styrke som utvikler er evnen til å se helheten i hva "
+"vi lager. Mitt fokus er på å skape verdi for sluttbruker, og følgelig fylle "
+"tomrommet mellom produkteiere og utviklingsteam. Min tilnærming er "
+"pragmatisk og smidig i forhold til hvordan man kommer seg til neste steg i "
+"produktutviklingen.”"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:43
+msgid "Expertise"
+msgstr "Tjenester"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:46
+msgid "Lead Developer"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:49
+msgid "describe grimeland coding lead developer"
+msgstr ""
+"En Lead Developer eller tech lead tar ledelse og ansvar i utviklingsteamet, "
+"leder prosesser for teknologivalg, tar ansvar for arkitektur og "
+"infrastruktur, i tillegg til å etablere utviklingsmetodikk. Som Lead "
+"Developer kan jeg løfte øke produktivitet og heve kvaliteten på teamets "
+"leveranser. Jeg jobber fokusert og effektivt med gode kommunikasjonsevner og "
+"fungerer som et bindeledd mellom utviklingsteam og prosjektleder."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:52
+msgid "Senior System Developer"
+msgstr "Senior Systemutvikler"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:55
+msgid "describe grimeland coding senior system developer"
+msgstr ""
+"Som en senior utvikler jobber man i team alene på et konkret prosjekt. En "
+"senior utvikler er tilgjengelig og lett å stille spørsmål til for de andre "
+"på teamet i tillegg til at man har erfaring med å snakke med interessenter "
+"utenfor teamet. Det er backend-løsningen og forretningslogikk jeg har jobbet "
+"mest med. Forruten programmering og clean code har jeg høy kompetanse på "
+"arkitektur, infrastruktur, utviklingsprosesser og testing. Min styrke som "
+"systemutvikler er at jeg setter meg fort inn i nye systemer og blir raskt "
+"produktiv, jeg fokuserer på effektiv, lesbar og forståelig kode som alltid "
+"er av høy kvalitet og lett for andre å forstå."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:58
+msgid "Agile Coach"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:61
+msgid "describe grimeland coding agile coach"
+msgstr ""
+"En smidig prosjektleder eller smidig coach jobber med utviklingsteamet for å "
+"sikre en god gjennomføring av et smidig prosjekt. Deler av ansvaret er å "
+"sørge for godt samarbeid i teamet og legge til rette for at utviklere får "
+"jobbe fokusert samtidig som interessene til produkteier er ivaretatt. Jeg "
+"har mye erfaring som Scrum master og som smidig coach i Kanbanprosjekter. "
+"Min styrke er at jeg jobber organisert og strukturert og arbeidet mye med å "
+"innføre utviklingsprosesser for å heve kvalitet og produktivitet i teamet "
+"som sikrer gode leveranser."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:72
+msgid "References"
+msgstr "Referanser"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:75
+msgid "Sysco AS"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:78
+msgid "describe grimeland coding sysco as"
+msgstr ""
+"Senior Konsulent/Prosjektleder med ansvar for å koordinere og lede oppdrag i "
+"Lima for norske kunder."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:81
+msgid "Vidum AS"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:84
+msgid "describe grimeland coding vidum"
+msgstr ""
+"Jobbet som Scrum Master med høye krav til oppfølging av prosjektrammene."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:87
+msgid "PPlan"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:90
+msgid "describe grimeland coding pplan"
+msgstr ""
+"Scrum Master for prosjektet PPlan og jobbet tett med oppdragsgiver for å "
+"utarbeide produktspesifikasjon. "
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:96
+msgid "describe grimeland coding"
+msgstr "Utleid som Senior Konsulent/Teknisk prosjektleder"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:99
+msgid "Avspark.no"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:103
+msgid "describe grimeland coding avspark"
+msgstr ""
+"Hovedutvikler av den nettbaserte tjenesten Avspark.no for ABC-Startsiden. "
+"Jobbet som en teknisk prosjektleder og hovedutvikler, med ansvaret for "
+"systemarkitektur og valg av teknologi."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:106
+msgid "Orchestration AS"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:110
+msgid "describe grimeland coding orchestration"
+msgstr ""
+"Senior Systemutvikler med rolle som hovedutvikler og systemarkitekt for "
+"Orchestration sin produktsatsning. Utleid til større prosjekter som senior "
+"systemutvikler."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:113
+msgid "MeeTV"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:117
+msgid "describe grimeland coding meetv"
+msgstr ""
+"Vikar for den tekniske lederen av prosjektet MeeTV for ABC Startsiden med "
+"ansvaret for videreutvikling av løsningen inkludert arkitektur og "
+"teknologivalg."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:120
+msgid "Norsk-Tipping"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:124
+msgid "describe grimeland coding Norsk Tipping"
+msgstr ""
+"Seniorutvikler i Norsk Tipping sitt prosjekt for fornying av web-løsning. "
+"Jobbet som seniorutvikler med en rolle som løsningsrådgiver. Var involvert "
+"ved valg av teknologi og arkitektur under føringer fra Norsk Tipping. Jobbet "
+"i tillegg som hovedutvikler i utvalgte moduler."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:127
+msgid "Conductor"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:130
+msgid "describe grimeland coding conductor"
+msgstr ""
+"Hovedutvikler for utviklingen av webapplikasjonen Conductor. Hadde "
+"hovedansvaret som systemarkitekt og tech-lead i tillegg til å ha rollen som "
+"Scrum Master"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:133
+msgid "Onsite Solutions AS"
+msgstr ""
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:137
+msgid "describe grimeland coding onsite"
+msgstr ""
+"Jobbet som systemutvikler på avanserte webbaserte tjenester og "
+"applikasjoner. Jobbet også med koordinering og planlegging av teknisk "
+"gjennomføring av prosjekter."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:147
+msgid "contact grimeland coding"
+msgstr "Kontakt Grimeland Coding"
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:150
+msgid "contact-motivation"
+msgstr "Jeg er ledig for oppdrag og gleder meg til å høre fra deg."
+
+#~ msgid "pitch follow up grimeland coding"
+#~ msgstr ""
+#~ "Jeg er en Senior systemutvikler spesialisert på web applikasjoner, med "
+#~ "lang erfaring som lead developer i smidige prosjekter."
+
+#~ msgid "elevator-pitch-part-2-grimeland-coding"
+#~ msgstr ""
+#~ "Jeg er en Senior systemutvikler spesialisert på web applikasjoner, med "
+#~ "lang erfaring som lead developer i smidige prosjekter."
+
+#~ msgid "Skeleton Application"
+#~ msgstr "Skjelettapplikasjon"
+
+#~ msgid "Welcome to %sZend Framework 2%s"
+#~ msgstr "Velkommen til %sZend Framework 2%s"
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed the %sZF2 Skeleton "
+#~ "Application%s. You are currently running Zend Framework version %s. This "
+#~ "skeleton can serve as a simple starting point for you to begin building "
+#~ "your application on ZF2."
+#~ msgstr ""
+#~ "Gratulerer! Du har installert  %sZF2 Skjelettapplikasjon%s, Du bruker "
+#~ "akkurat nå versjon %s av Zend Framework. Dette skjelettet kan brukes som "
+#~ "et enkelt utgangspunkt når du begynner å bygge din applikasjon med ZF2."
+
+#~ msgid "Fork Zend Framework 2 on GitHub"
+#~ msgstr "Forgren Zend Framework 2 på GitHub"
+
+#~ msgid "Follow Development"
+#~ msgstr "Følg Utviklingen"
+
+#~ msgid ""
+#~ "Zend Framework 2 is under active development. If you are interested in "
+#~ "following the development of ZF2, there is a special ZF2 portal on the "
+#~ "official Zend Framework website which provides links to the ZF2 %swiki%s, "
+#~ "%sdev blog%s, %sissue tracker%s, and much more. This is a great resource "
+#~ "for staying up to date with the latest developments!"
+#~ msgstr ""
+#~ "ZF2 er i aktiv utvikling. Hvis du er interessert i å følge utviklingen så "
+#~ "finnes det en spesiell ZF2-portal på den offisielle hjemmesiden til Zend "
+#~ "Framework som inneholder lenker til ZF2 %swiki%s, %sdev blog%s, %sissue "
+#~ "tracker%s, og mye mer. Det er en flott ressurs for deg som vil holde deg "
+#~ "oppdatert!"
+
+#~ msgid "ZF2 Development Portal"
+#~ msgstr "ZF2 Utviklingsportal"
+
+#~ msgid "Discover Modules"
+#~ msgstr "Oppdag Moduler"
+
+#~ msgid ""
+#~ "The community is working on developing a community site to serve as a "
+#~ "repository and gallery for ZF2 modules. The project is available %son "
+#~ "GitHub%s. The site is currently live and currently contains a list of "
+#~ "some of the modules already available for ZF2."
+#~ msgstr ""
+#~ "Nettsamfunnet arbeider med å utvikle en spesiell samfunnsside som kan "
+#~ "tjene som et bibliotek og galleri for ZF2-moduler. Prosjektet er "
+#~ "tilgjengelig %spå GitHub%s. Nettstedet  inneholder for tiden en liste med "
+#~ "enkelte av modulene som er tilgjengelig for Zend Framework 2."
+
+#~ msgid "Explore ZF2 Modules"
+#~ msgstr "Utforsk ZF2-moduler"
+
+#~ msgid "Help &amp; Support"
+#~ msgstr "Hjelp &amp; Støtte"
+
+#~ msgid ""
+#~ "If you need any help or support while developing with ZF2, you may reach "
+#~ "us via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+#~ "feedback you may have regarding the beta releases. Alternatively, you may "
+#~ "subscribe and post questions to the %smailing lists%s."
+#~ msgstr ""
+#~ "Hvis du trenger hjelp eller støtte mens du utvikler med ZF2 så kan du nå "
+#~ "oss via IRC: %s#zftalk on Freenode%s. Vi hører gjerne fra deg om du har "
+#~ "spørsmål eller tilbakemeldinger på betautgavene. Du kan også abonnere og "
+#~ "stille spørsmål på våre %smailinglister%s."
+
+#~ msgid "Ping us on IRC"
+#~ msgstr "Ping oss på IRC"
+
+#~ msgid "Exception"
+#~ msgstr "Unntak"
