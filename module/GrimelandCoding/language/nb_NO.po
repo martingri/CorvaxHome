@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GrimelandHome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16 09:38+0100\n"
-"PO-Revision-Date: 2014-07-16 09:40+0100\n"
+"POT-Creation-Date: 2014-07-17 08:04+0100\n"
+"PO-Revision-Date: 2014-07-17 09:28+0100\n"
 "Last-Translator: Martin Grimeland <martin.grimeland@gmail.com>\n"
 "Language-Team: Martin Grimeland <martin.grimeland>\n"
 "Language: en_US\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/layout/layout.phtml:32
 #: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:8
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:93
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:102
 msgid "Grimeland Coding"
 msgstr ""
 
@@ -138,45 +138,57 @@ msgid "About Grimeland Coding"
 msgstr "Om Grimeland Coding"
 
 #: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:32
-msgid "who is grimeland coding"
+msgid "who is grimeland coding intro"
 msgstr ""
-"Grimeland Coding er drevet av Martin Grimeland, og tilbyr IT-konsulentarbeid "
-"som systemutvikler og clean code workshops. Martin har jobbet med IT siden "
-"2006. “Jeg er en Clean Code evangelist og som systemutvikler brenner jeg for "
-"å løfte kodekvaliteten i bransjen. Jeg har derfor også utviklet og holdt "
-"workshops i Clean Code og sett gode resultater.Jeg jobber som systemutvikler "
-"i backend, ofte som Lead Developer med ansvar for utvikling og leveranse. "
-"Jeg har jobbet mye med å ta konsepter fra idé til ferdig produkt, gjennom "
-"iterative prosesser av bearbeide konseptet, utvikling, testing og "
-"produksjonssetting.Min styrke som utvikler er evnen til å se helheten i hva "
-"vi lager. Mitt fokus er på å skape verdi for sluttbruker, og følgelig fylle "
-"tomrommet mellom produkteiere og utviklingsteam. Min tilnærming er "
-"pragmatisk og smidig i forhold til hvordan man kommer seg til neste steg i "
-"produktutviklingen.”"
+"Jeg heter Martin Grimeland og har jobbet med IT siden 2006. Gjennom "
+"Grimeland Coding leverer jeg IT-konsulentarbeid som systemutvikler og clean "
+"code workshops."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:43
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:35
+msgid "who is grimeland coding 1"
+msgstr ""
+"Jeg er en Clean Code evangelist og brenner for å løfte kodekvaliteten i "
+"bransjen. Derfor har jeg utviklet og holdt workshops i Clean Code og sett "
+"gode resultater."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:38
+msgid "who is grimeland coding 2"
+msgstr ""
+"I hovedsak jobber jeg som systemutvikler i backend, ofte som Lead Developer "
+"og har ansvar for utvikling og leveranse. Som Lead Developer har jeg jobbet "
+"mye med å ta konsepter fra idé til ferdig produkt."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:41
+msgid "who is grimeland coding 3"
+msgstr ""
+"Min styrke som utvikler er evnen til å se helheten i hva vi lager og mitt "
+"fokus på å skape verdi for sluttbruker. Jeg tror på en pragmatisk og smidig "
+"tilnærming til hvordan man kommer seg til neste steg i produktutviklingen."
+
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:52
 msgid "Expertise"
 msgstr "Tjenester"
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:46
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:55
 msgid "Lead Developer"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:49
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:58
 msgid "describe grimeland coding lead developer"
 msgstr ""
 "En Lead Developer eller tech lead tar ledelse og ansvar i utviklingsteamet, "
 "leder prosesser for teknologivalg, tar ansvar for arkitektur og "
-"infrastruktur, i tillegg til å etablere utviklingsmetodikk. Som Lead "
-"Developer kan jeg løfte øke produktivitet og heve kvaliteten på teamets "
-"leveranser. Jeg jobber fokusert og effektivt med gode kommunikasjonsevner og "
-"fungerer som et bindeledd mellom utviklingsteam og prosjektleder."
+"infrastruktur, i tillegg til å etablere utviklingsmiljø og "
+"utviklingsmetodikk. Som Lead Developer kan jeg løfte øke produktivitet og "
+"heve kvaliteten på teamets leveranser. Jeg jobber fokusert og effektivt med "
+"gode kommunikasjonsevner og fungerer som et bindeledd mellom utviklingsteam "
+"og prosjektleder."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:52
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:61
 msgid "Senior System Developer"
 msgstr "Senior Systemutvikler"
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:55
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:64
 msgid "describe grimeland coding senior system developer"
 msgstr ""
 "Som en senior utvikler jobber man i team alene på et konkret prosjekt. En "
@@ -189,97 +201,97 @@ msgstr ""
 "produktiv, jeg fokuserer på effektiv, lesbar og forståelig kode som alltid "
 "er av høy kvalitet og lett for andre å forstå."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:58
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:67
 msgid "Agile Coach"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:61
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:70
 msgid "describe grimeland coding agile coach"
 msgstr ""
 "En smidig prosjektleder eller smidig coach jobber med utviklingsteamet for å "
-"sikre en god gjennomføring av et smidig prosjekt. Deler av ansvaret er å "
-"sørge for godt samarbeid i teamet og legge til rette for at utviklere får "
+"sikre en god gjennomføring av et smidig prosjekt. Jeg syns at en god smidig "
+"coach skal sørge for godt samarbeid i teamet og passe på at utviklere får "
 "jobbe fokusert samtidig som interessene til produkteier er ivaretatt. Jeg "
 "har mye erfaring som Scrum master og som smidig coach i Kanbanprosjekter. "
-"Min styrke er at jeg jobber organisert og strukturert og arbeidet mye med å "
-"innføre utviklingsprosesser for å heve kvalitet og produktivitet i teamet "
-"som sikrer gode leveranser."
+"Min styrke er at jeg jobber organisert og strukturert og bruker "
+"utviklingsprosesser som hever kvalitet og produktivitet for å sikre gode "
+"leveranser."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:72
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:81
 msgid "References"
 msgstr "Referanser"
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:75
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:84
 msgid "Sysco AS"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:78
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:87
 msgid "describe grimeland coding sysco as"
 msgstr ""
 "Senior Konsulent/Prosjektleder med ansvar for å koordinere og lede oppdrag i "
 "Lima for norske kunder."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:81
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:90
 msgid "Vidum AS"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:84
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:93
 msgid "describe grimeland coding vidum"
 msgstr ""
 "Jobbet som Scrum Master med høye krav til oppfølging av prosjektrammene."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:87
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:96
 msgid "PPlan"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:90
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:99
 msgid "describe grimeland coding pplan"
 msgstr ""
 "Scrum Master for prosjektet PPlan og jobbet tett med oppdragsgiver for å "
 "utarbeide produktspesifikasjon. "
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:96
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:105
 msgid "describe grimeland coding"
 msgstr "Utleid som Senior Konsulent/Teknisk prosjektleder"
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:99
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:108
 msgid "Avspark.no"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:103
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:112
 msgid "describe grimeland coding avspark"
 msgstr ""
 "Hovedutvikler av den nettbaserte tjenesten Avspark.no for ABC-Startsiden. "
 "Jobbet som en teknisk prosjektleder og hovedutvikler, med ansvaret for "
 "systemarkitektur og valg av teknologi."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:106
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:115
 msgid "Orchestration AS"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:110
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:119
 msgid "describe grimeland coding orchestration"
 msgstr ""
 "Senior Systemutvikler med rolle som hovedutvikler og systemarkitekt for "
 "Orchestration sin produktsatsning. Utleid til større prosjekter som senior "
 "systemutvikler."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:113
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:122
 msgid "MeeTV"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:117
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:126
 msgid "describe grimeland coding meetv"
 msgstr ""
 "Vikar for den tekniske lederen av prosjektet MeeTV for ABC Startsiden med "
 "ansvaret for videreutvikling av løsningen inkludert arkitektur og "
 "teknologivalg."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:120
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:129
 msgid "Norsk-Tipping"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:124
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:133
 msgid "describe grimeland coding Norsk Tipping"
 msgstr ""
 "Seniorutvikler i Norsk Tipping sitt prosjekt for fornying av web-løsning. "
@@ -287,33 +299,33 @@ msgstr ""
 "ved valg av teknologi og arkitektur under føringer fra Norsk Tipping. Jobbet "
 "i tillegg som hovedutvikler i utvalgte moduler."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:127
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:136
 msgid "Conductor"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:130
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:139
 msgid "describe grimeland coding conductor"
 msgstr ""
 "Hovedutvikler for utviklingen av webapplikasjonen Conductor. Hadde "
 "hovedansvaret som systemarkitekt og tech-lead i tillegg til å ha rollen som "
 "Scrum Master"
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:133
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:142
 msgid "Onsite Solutions AS"
 msgstr ""
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:137
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:146
 msgid "describe grimeland coding onsite"
 msgstr ""
 "Jobbet som systemutvikler på avanserte webbaserte tjenester og "
 "applikasjoner. Jobbet også med koordinering og planlegging av teknisk "
 "gjennomføring av prosjekter."
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:147
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:156
 msgid "contact grimeland coding"
 msgstr "Kontakt Grimeland Coding"
 
-#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:150
+#: /home/marting/vagrant-projects/CorvaxHome/module/GrimelandCoding/view/grimeland-coding/index/index.phtml:159
 msgid "contact-motivation"
 msgstr "Jeg er ledig for oppdrag og gleder meg til å høre fra deg."
 
