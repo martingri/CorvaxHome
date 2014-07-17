@@ -7,3 +7,33 @@
 .reference-img {
     height: 23px; 
 }
+
+p.about-text {
+    margin: 0 0 7px;
+    text-align:left;
+}
+
+div.lead-developer {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/service-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+div.agile-coach {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/grimeland-coding/flipped-main.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
