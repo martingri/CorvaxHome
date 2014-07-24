@@ -37,3 +37,11 @@ div.agile-coach {
     -o-background-size: cover;
 }
 
+.dropdown-menu {
+    background-color: #BBB;
+}
+
+.dropdown-menu > li > a,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+}
