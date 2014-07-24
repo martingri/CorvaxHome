@@ -3,10 +3,10 @@
 return array(
     'router' => array(
         'routes' => array(
-            'home' => array(
-                'type' => 'Zend\Mvc\Router\Http\Literal',
+         'home' => array(
+                'type' => 'segment',
                 'options' => array(
-                    'route'    => '/',
+                    'route'    => '/[:lang]',
                     'defaults' => array(
                         'controller' => 'GrimelandCoding\Controller\Index',
                         'action'     => 'index',
@@ -19,9 +19,9 @@ return array(
             // module. Simply drop new controllers in, and you can access them
             // using the path /corvax-home/:controller/:action
             'grimeland-home' => array(
-                'type'    => 'Literal',
+                'type'    => 'segment',
                 'options' => array(
-                    'route'    => '/grimeland-coding',
+                    'route'    => '[/:lang]/grimeland-coding',
                     'defaults' => array(
                         '__NAMESPACE__' => 'GrimelandCoding\Controller',
                         'controller'    => 'Index',
@@ -34,7 +34,7 @@ return array(
                     'default' => array(
                         'type'    => 'Segment',
                         'options' => array(
-                            'route'    => '/[:lang[/:controller[/:action]]]',
+                            'route'    => '/[:controller[/:action]]',
                             'constraints' => array(
                                 'controller' => '[a-zA-Z][a-zA-Z0-9_-]*',
                                 'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
