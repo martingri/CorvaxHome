@@ -10,6 +10,7 @@ return array(
                     'defaults' => array(
                         'controller' => 'GrimelandCoding\Controller\Index',
                         'action'     => 'index',
+			'lang'       => 'no',
                     ),
                 ),
             ),
@@ -25,6 +26,7 @@ return array(
                         '__NAMESPACE__' => 'GrimelandCoding\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
+			'lang'          => 'no',
                     ),
                 ),
                 'may_terminate' => true,
@@ -32,12 +34,10 @@ return array(
                     'default' => array(
                         'type'    => 'Segment',
                         'options' => array(
-                            'route'    => '/[:controller[/:action]]',
+                            'route'    => '/[:lang[/:controller[/:action]]]',
                             'constraints' => array(
                                 'controller' => '[a-zA-Z][a-zA-Z0-9_-]*',
                                 'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
-                            ),
-                            'defaults' => array(
                             ),
                         ),
                     ),
@@ -68,6 +68,11 @@ return array(
             'GrimelandCoding\Controller\Index' => 'GrimelandCoding\Controller\IndexController',
             'GrimelandCoding\Controller\Grayscale' => 'GrimelandCoding\Controller\GrayscaleController'
         ),
+    ),
+     'view_helpers' => array(
+        'invokables'=> array(
+            'get_language_parameter' => 'GrimelandCoding\View\Helper\LanguageSniffer'  
+        )
     ),
     'view_manager' => array(
         'display_not_found_reason' => true,
