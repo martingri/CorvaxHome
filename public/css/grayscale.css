@@ -265,7 +265,7 @@ a:focus {
     margin-top: 100px;
 }
 
-@media(min-width:767px) {
+@media(min-width:1767px) {
     .content-section {
         padding-top: 250px;
     }
