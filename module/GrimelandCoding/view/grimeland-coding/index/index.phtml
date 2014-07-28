@@ -44,141 +44,180 @@
   </div>
 </section>
 
-<section id="services" class="container content-section text-center">
-  <div class="service-section">
+<section id="services" class="container content-section text-center">  
+    <div class="container-fluid service-section">
+    <div class="row">
         <h2>
 	  <?php echo $this->translate('Expertise') ?>			      
 	</h2>
-    <div class="container lead-developer">
-      <div class="col-lg-8 col-lg-offset-2">
+	<div class="col-xs-12 col-sm-6">
         <h3>
 	  <?php echo $this->translate('Lead Developer') ?>			      
 	</h3>
-        <p class="collapse" id="view-lead-developer-description">
+	  <button type="button" class="btn btn-default btn-xs showdetails" 
+		  data-toggle="collapse" data-target="#view-lead-developer-description">
+	    <span class="glyphicon glyphicon-plus"></span>
+  	    <?php echo $this->translate('learn more') ?>			      
+	  </button>
+        <div class="collapse" id="view-lead-developer-description">
+        <p>
 	  <?php echo $this->translate('describe grimeland coding lead developer') ?>			      
 	</p>
-	<p>
-	  <a class="btn showdetails" data-toggle="collapse" data-target="#view-lead-developer-description">
-	     <?php echo $this->translate('Describe lead developer') ?>
-          </a>
-        </p>
         <p>
 	  <?php echo $this->translate('describe strength as lead developer') ?>			      
 	</p>
-      </div>
     </div>
-    <div class="container">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h3>
-	  <?php echo $this->translate('Senior System Developer') ?>			      
-	</h3>
-        <p class="collapse" id="view-developer-description">
+    </div>
+	<div class="col-xs-12 col-sm-6">
+	  <h3>
+	    <?php echo $this->translate('Senior System Developer') ?>			      
+	  </h3>
+	  <button type="button" class="btn btn-default btn-xs showdetails" 
+		  data-toggle="collapse" data-target="#view-developer-description">
+	    <span class="glyphicon glyphicon-plus"></span>
+  	    <?php echo $this->translate('learn more') ?>			      
+	  </button>
+      <p>
+      </p>
+      <div class="collapse" id="view-developer-description">
+        <p>
 	  <?php echo $this->translate('describe grimeland coding senior system developer') ?>			      
 	</p>
-	  <p>
-            <a class="btn showdetails" data-toggle="collapse" data-target="#view-developer-description">
-  	      <?php echo $this->translate('Describe Senior System Developer') ?>			      
-	    </a>
-	  </p>
         <p>
 	  <?php echo $this->translate('describe strength as senior system developer') ?>			      
 	</p>
       </div>
     </div>
-    <div class="container agile-coach">
-      <div class="col-lg-8 col-lg-offset-2">
+    <div class="col-xs-12 col-sm-6">
         <h3>
 	  <?php echo $this->translate('Agile Coach') ?>			      
 	</h3>
-        <p class="collapse" id="view-agile-coach-description">
+	  <button type="button" class="btn btn-default btn-xs showdetails" 
+		  data-toggle="collapse" data-target="#view-agile-coach-description">
+	    <span class="glyphicon glyphicon-plus"></span>
+  	    <?php echo $this->translate('learn more') ?>			      
+	  </button>
+        <div class="collapse" id="view-agile-coach-description">
+          <p>
+	    <?php echo $this->translate('describe grimeland coding agile coach') ?>			      
+	  </p>
+          <p>
+	    <?php echo $this->translate('describe strength as coding agile coach') ?>			      
+	  </p>
+	</div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <h3>
+	  <?php echo $this->translate('Clean Code Workshops') ?>			      
+	</h3>
+	  <button type="button" class="btn btn-default btn-xs showdetails" 
+		  data-toggle="collapse" data-target="#view-clean-code-description">
+	    <span class="glyphicon glyphicon-plus"></span>
+  	    <?php echo $this->translate('learn more') ?>			      
+	  </button>
+        <div class="collapse" id="view-clean-code-description">
+        <p>
 	  <?php echo $this->translate('describe grimeland coding agile coach') ?>			      
-	</p>
-	<p>
-	  <a class="btn showdetails" data-toggle="collapse" data-target="#view-agile-coach-description">
-	  <?php echo $this->translate('Describe Agile Coach') ?>			      
-	  </a>
 	</p>
         <p>
 	  <?php echo $this->translate('describe strength as coding agile coach') ?>			      
 	</p>
+	</div>
       </div>
-    </div>
+  </div>
   </div>
 </section>
 
 <section id="references" class="container content-section text-center">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
+  <div class="container-fluid">
+    <div class="row">
       <h2>
 	<?php echo $this->translate('References') ?>			      
       </h2>
-        <h3>
-	  <?php echo $this->translate('Sysco AS') ?><img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/Sysco_logo_300px.png') ?>" alt=""/>
-	</h3>
+      <div class="col-xs-12 col-sm-6">
+        <h4>
+	  <img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/Sysco_logo_only.png') ?>" alt=""/>
+	  <?php echo $this->translate('Sysco AS') ?>
+	</h4>
         <p>
 	  <?php echo $this->translate('describe grimeland coding sysco as') ?>			      
 	</p>
-        <h4>
-	  <?php echo $this->translate('Vidum AS') ?>			      
-	</h4>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding vidum') ?>			      
-	</p>
-        <h4>
-	  <?php echo $this->translate('PPlan') ?>			      
-	</h4>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding pplan') ?>			      
-	</p>
-        <h3>
-	  <?php echo $this->translate('Grimeland Coding') ?>
-	</h3>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding') ?>			      
-	</p>
-        <h4>
-	  <?php echo $this->translate('Avspark.no') ?>	
-	  <img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/ABCStartsidenLogo.jpg') ?>" alt=""/>
-	</h4>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding avspark') ?>			      
-	</p>
-        <h3>
-	  <?php echo $this->translate('Orchestration AS') ?>			      
-	  <img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/OrchestrationLogo.png') ?>" alt=""/>
-	</h3>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding orchestration') ?>			      
-	</p>
-        <h4>
-	  <?php echo $this->translate('MeeTV') ?>			      
-	  <img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/MeeTvLogo.png') ?>" alt=""/>
-	</h4>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding meetv') ?>			      
-	</p>
-        <h4>
-	  <?php echo $this->translate('Norsk-Tipping') ?>			      
-	  <img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/Norsk-TippingLogo.jpg') ?>" alt=""/>
-	</h4>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding Norsk Tipping') ?>			      
-	</p>
-        <h4>
-	  <?php echo $this->translate('Conductor') ?>			      
-	</h4>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding conductor') ?>			      
-	</p>
-        <h3>
-	  <?php echo $this->translate('Onsite Solutions AS') ?>			      
-	  <img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/onsite-logo-160-shadow.png') ?>" alt=""/>
-	</h3>
-        <p>
-	  <?php echo $this->translate('describe grimeland coding onsite') ?>			      
-	</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>	  
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/vidum.jpg') ?>" alt=""/>
+	<?php echo $this->translate('Vidum AS') ?>			      
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding vidum') ?>			      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/Sysco_logo_only.png') ?>" alt=""/>
+	<?php echo $this->translate('PPlan') ?>			      
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding pplan') ?>			      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/ABCStartsidenLogo.jpg') ?>" alt=""/>
+	<?php echo $this->translate('Avspark.no') ?>	
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding avspark') ?>			      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/OrchestrationLogo.png') ?>" alt=""/>
+	<?php echo $this->translate('Orchestration AS') ?>			      
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding orchestration') ?>			      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/MeeTvLogo.png') ?>" alt=""/>
+	<?php echo $this->translate('MeeTV') ?>			      
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding meetv') ?>			      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/Norsk-TippingLogo.jpg') ?>" alt=""/>
+	<?php echo $this->translate('Norsk-Tipping') ?>			      
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding Norsk Tipping') ?>			      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/OrchestrationLogo_only.png') ?>" alt=""/>
+	<?php echo $this->translate('Conductor') ?>			      
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding conductor') ?>			      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h4>
+	<img class="reference-img" src="<?php echo $this->basePath('img/grimeland-coding/onsite-logo-160-shadow.png') ?>" alt=""/>
+	<?php echo $this->translate('Onsite Solutions AS') ?>  
+      </h4>
+      <p>
+	<?php echo $this->translate('describe grimeland coding onsite') ?>			      
+      </p>
     </div>
   </div>
+</div>
 </section>
 
 <section id="contact" class="container content-section text-center">
@@ -187,10 +226,10 @@
       <h2>
 	<?php echo $this->translate('contact grimeland coding') ?>			      			      
       </h2>
-      <p>
+      <p class="center-text">
 	<?php echo $this->translate('contact-motivation') ?>			      			      
       </p>
-      <p>martin.grimeland@gmail.com</p>
+      <p class="center-text">martin.grimeland@gmail.com</p>
       <ul class="list-inline banner-social-buttons">
         <li><a href="https://twitter.com/corvaxcoding" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
         </li>
