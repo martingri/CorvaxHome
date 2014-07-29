@@ -19,7 +19,7 @@ class Module
         $eventManager = $e->getApplication()->getEventManager();
         $routeCallback = function ($e) {
             $availableLanguages = array ('no' => 'nb_NO', 
-	    			  	 'en' => 'en_US' );
+	    			  	 'en' => 'en_GB' );
             $defaultLanguage = 'en';
             $language = "";
             $fromRoute = false;
