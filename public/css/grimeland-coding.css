@@ -54,3 +54,15 @@ h4 {
 p.center-text {
     text-align: center;
 }
+
+button.btn > .fa-angle-double-down,
+button.btn.collapsed > .fa-angle-double-up
+{
+    display:none;
+}
+
+button.btn.collapsed > .fa-angle-double-down,
+button.btn > .fa-angle-double-up
+{
+    display:block;
+}
