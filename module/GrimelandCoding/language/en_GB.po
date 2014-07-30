@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-28 15:38+0100\n"
-"PO-Revision-Date: 2014-07-29 18:16+0100\n"
+"PO-Revision-Date: 2014-07-30 14:08+0100\n"
 "Last-Translator: Martin Grimeland <martin.grimeland@gmail.com>\n"
 "Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
 "Language: en_US\n"
@@ -217,19 +217,22 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:120
 msgid "describe grimeland coding agile coach"
 msgstr ""
-"En smidig prosjektleder eller smidig coach jobber med utviklingsteamet for å "
-"sikre en god gjennomføring av et smidig prosjekt. Jeg syns at en god smidig "
-"coach skal sørge for godt samarbeid i teamet og passe på at utviklere får "
-"jobbe fokusert samtidig som interessene til produkteier er ivaretatt. "
+"An agile coach works on communication, group dynamics and coaching in the "
+"development team to enable them to perform to the best of their ability. You "
+"enable the team by removing impediments, assist the teams, and through "
+"coaching and mentoring, discover improved ways of collaborating and "
+"developing."
 
 #: ../view/grimeland-coding/index/index.phtml:105
 #: ../view/grimeland-coding/index/index.phtml:123
 msgid "describe strength as coding agile coach"
 msgstr ""
-"Jeg har mye erfaring som Scrum master og som smidig coach i "
-"Kanbanprosjekter. Min styrke er at jeg jobber organisert og strukturert og "
-"bruker utviklingsprosesser som hever kvalitet og produktivitet for å sikre "
-"gode leveranser."
+"I have worked as Scrum master and Kanban agile coach in many projects and it "
+"is important to me not to simply follow the specific rules and setup of a "
+"methodology, but that we need to continuously adjust the processes and our "
+"setup to reach our full potential. My strengths as an agile coach is my "
+"communication skills and my technical understanding combined with an "
+"organized and structured way of exploring different setups and processes."
 
 #: ../view/grimeland-coding/index/index.phtml:111
 msgid "Clean Code Workshops"
@@ -246,8 +249,10 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:143
 msgid "describe grimeland coding sysco as"
 msgstr ""
-"Senior Konsulent/Prosjektleder med ansvar for å koordinere og lede oppdrag i "
-"Lima for norske kunder."
+"Worked as lead developer and project manager, responsible for leading and "
+"coordinating developer teams for Norwegian projects from Sysco AS’ offshore "
+"office in Lima. I was also in charge of setting up and hosting workshops for "
+"best practices on a range of topics to increase quality and productivity."
 
 #: ../view/grimeland-coding/index/index.phtml:150
 msgid "Vidum AS"
@@ -256,7 +261,9 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:153
 msgid "describe grimeland coding vidum"
 msgstr ""
-"Jobbet som Scrum Master med høye krav til oppfølging av prosjektrammene."
+"Had the role as Scrum Master with responsibility for quality assurance and "
+"deployment. Worked specifically on implementing development processes to "
+"increase quality and ensure reliable releases."
 
 #: ../view/grimeland-coding/index/index.phtml:159
 msgid "PPlan"
@@ -265,8 +272,8 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:162
 msgid "describe grimeland coding pplan"
 msgstr ""
-"Scrum Master for prosjektet PPlan og jobbet tett med oppdragsgiver for å "
-"utarbeide produktspesifikasjon. "
+"Worked as Scrum Master as well as working close with the customer to "
+"finalize the product specification."
 
 #: ../view/grimeland-coding/index/index.phtml:168
 msgid "Avspark.no"
@@ -275,9 +282,9 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:171
 msgid "describe grimeland coding avspark"
 msgstr ""
-"Hovedutvikler av den nettbaserte tjenesten Avspark.no for ABC-Startsiden. "
-"Jobbet som en teknisk prosjektleder og hovedutvikler, med ansvaret for "
-"systemarkitektur og valg av teknologi."
+"Worked as technical project manager and lead developer, responsible for "
+"complete system design, from architecture and technology stack to "
+"infrastructure and methodologies."
 
 #: ../view/grimeland-coding/index/index.phtml:177
 msgid "Orchestration AS"
@@ -286,9 +293,9 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:180
 msgid "describe grimeland coding orchestration"
 msgstr ""
-"Senior Systemutvikler med rolle som hovedutvikler og systemarkitekt for "
-"Orchestration sin produktsatsning. Utleid til større prosjekter som senior "
-"systemutvikler."
+"Was Chief of development with the role of Lead developer and system "
+"architect for Orchestration’s product Conductor. Would also work as Senior "
+"Developer Consultant on enterprise projects."
 
 #: ../view/grimeland-coding/index/index.phtml:186
 msgid "MeeTV"
@@ -297,9 +304,8 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:189
 msgid "describe grimeland coding meetv"
 msgstr ""
-"Vikar for den tekniske lederen av prosjektet MeeTV for ABC Startsiden med "
-"ansvaret for videreutvikling av løsningen inkludert arkitektur og "
-"teknologivalg."
+"I replaced the lead developer and was responsible for the continuous "
+"development of the system, including choice of architecture and technology."
 
 #: ../view/grimeland-coding/index/index.phtml:195
 msgid "Norsk-Tipping"
@@ -308,10 +314,9 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:198
 msgid "describe grimeland coding Norsk Tipping"
 msgstr ""
-"Seniorutvikler i Norsk Tipping sitt prosjekt for fornying av web-løsning. "
-"Jobbet som seniorutvikler med en rolle som løsningsrådgiver. Var involvert "
-"ved valg av teknologi og arkitektur under føringer fra Norsk Tipping. Jobbet "
-"i tillegg som hovedutvikler i utvalgte moduler."
+"Worked as a senior developer and was involved as an advisor on architecture "
+"and technology decisions. Was lead developer for selected modules of the "
+"system."
 
 #: ../view/grimeland-coding/index/index.phtml:204
 msgid "Conductor"
@@ -320,9 +325,9 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:207
 msgid "describe grimeland coding conductor"
 msgstr ""
-"Hovedutvikler for utviklingen av webapplikasjonen Conductor. Hadde "
-"hovedansvaret som systemarkitekt og tech-lead i tillegg til å ha rollen som "
-"Scrum Master"
+"Worked as lead developer and Scrum Master. Was responsible for architecture, "
+"infrastructure and choosing technology. As Scrum Master implemented "
+"different development processes to improve quality and teamwork."
 
 #: ../view/grimeland-coding/index/index.phtml:213
 msgid "Onsite Solutions AS"
@@ -331,9 +336,9 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:216
 msgid "describe grimeland coding onsite"
 msgstr ""
-"Jobbet som systemutvikler på avanserte webbaserte tjenester og "
-"applikasjoner. Jobbet også med koordinering og planlegging av teknisk "
-"gjennomføring av prosjekter."
+"Worked as system developer on advanced web based services and applications. "
+"Was responsible for coordinating and the planning of the technical aspects "
+"of the projects."
 
 #: ../view/grimeland-coding/index/index.phtml:227
 msgid "contact grimeland coding"
@@ -341,7 +346,8 @@ msgstr "Contact Grimeland Coding"
 
 #: ../view/grimeland-coding/index/index.phtml:230
 msgid "contact-motivation"
-msgstr "Jeg er ledig for oppdrag og gleder meg til å høre fra deg."
+msgstr ""
+"Drop me a message, I am always looking for new challenges and opportunities."
 
 #~ msgid "qualities-grimeland-coding"
 #~ msgstr ""
