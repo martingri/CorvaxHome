@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-28 15:38+0100\n"
-"PO-Revision-Date: 2014-07-30 15:43+0100\n"
+"POT-Creation-Date: 2014-07-31 09:32+0100\n"
+"PO-Revision-Date: 2014-07-31 10:29+0100\n"
 "Last-Translator: Martin Grimeland <martin.grimeland@gmail.com>\n"
 "Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
 "Language: en_US\n"
@@ -126,10 +126,10 @@ msgstr ""
 #: ../view/grimeland-coding/index/index.phtml:32
 msgid "who is grimeland coding intro"
 msgstr ""
-"Grimeland Coding is run by me, Martin Grimeland. I have been working in the "
-"IT industry since 2006. Through Grimeland Coding I offer consultant work as "
-"a senior system developer, setting up and hosting clean code workshops and "
-"services as an agile coach."
+"My name is Martin Grimeland and I have been working in the IT industry since "
+"2006. Through Grimeland Coding I offer consultant work as a senior system "
+"developer, setting up and hosting clean code workshops and services as an "
+"agile coach."
 
 #: ../view/grimeland-coding/index/index.phtml:35
 msgid "who is grimeland coding 1"
@@ -163,14 +163,12 @@ msgstr ""
 msgid "Lead Developer"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:60
-#: ../view/grimeland-coding/index/index.phtml:78
-#: ../view/grimeland-coding/index/index.phtml:98
-#: ../view/grimeland-coding/index/index.phtml:116
-msgid "learn more"
-msgstr "more"
+#: ../view/grimeland-coding/index/index.phtml:58
+msgid "brief grimeland coding lead developer"
+msgstr ""
+"I will lead your product development and deliver high quality solutions."
 
-#: ../view/grimeland-coding/index/index.phtml:64
+#: ../view/grimeland-coding/index/index.phtml:67
 msgid "describe grimeland coding lead developer"
 msgstr ""
 "A Lead Developer or Tech Lead takes the lead and responsibility in the "
@@ -178,7 +176,7 @@ msgstr ""
 "responsibility for the architecture and infrastructure, in addition to "
 "establishing the development environment and methodology."
 
-#: ../view/grimeland-coding/index/index.phtml:67
+#: ../view/grimeland-coding/index/index.phtml:70
 msgid "describe strength as lead developer"
 msgstr ""
 "As a Lead Developer I can increase productivity and improve the quality of "
@@ -188,11 +186,17 @@ msgstr ""
 "a new product from scratch and believe in a pragmatic and lean approach on "
 "how to progress in product development."
 
-#: ../view/grimeland-coding/index/index.phtml:73
+#: ../view/grimeland-coding/index/index.phtml:76
 msgid "Senior System Developer"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:84
+#: ../view/grimeland-coding/index/index.phtml:79
+msgid "brief grimeland coding senior system developer"
+msgstr ""
+"As a system developer I'll strengthen your team and contribute with lots of "
+"experience."
+
+#: ../view/grimeland-coding/index/index.phtml:90
 msgid "describe grimeland coding senior system developer"
 msgstr ""
 "A senior developer can be trusted to work on complex, critical components on "
@@ -201,7 +205,7 @@ msgstr ""
 "people comfortable talking to you as well as being able to communicate with "
 "non-technical people involved in the project."
 
-#: ../view/grimeland-coding/index/index.phtml:87
+#: ../view/grimeland-coding/index/index.phtml:93
 msgid "describe strength as senior system developer"
 msgstr ""
 "As a system developer I work best in the backend and with the system's "
@@ -213,12 +217,17 @@ msgstr ""
 "see the bigger picture and bring it all together and believe in focusing on "
 "creating value for the end-user."
 
-#: ../view/grimeland-coding/index/index.phtml:93
+#: ../view/grimeland-coding/index/index.phtml:99
 msgid "Agile Coach"
 msgstr ""
 
 #: ../view/grimeland-coding/index/index.phtml:102
-#: ../view/grimeland-coding/index/index.phtml:120
+msgid "brief grimeland coding agile coach"
+msgstr ""
+"Let me coach your team and with them turn them into a high-performance agile "
+"development team."
+
+#: ../view/grimeland-coding/index/index.phtml:111
 msgid "describe grimeland coding agile coach"
 msgstr ""
 "An agile coach works on communication, group dynamics and coaching in the "
@@ -227,8 +236,7 @@ msgstr ""
 "coaching and mentoring, discover improved ways of collaborating and "
 "developing."
 
-#: ../view/grimeland-coding/index/index.phtml:105
-#: ../view/grimeland-coding/index/index.phtml:123
+#: ../view/grimeland-coding/index/index.phtml:114
 msgid "describe strength as coding agile coach"
 msgstr ""
 "I have worked as Scrum master and Kanban agile coach in many projects and it "
@@ -238,120 +246,136 @@ msgstr ""
 "communication skills and my technical understanding combined with an "
 "organized and structured way of exploring different setups and processes."
 
-#: ../view/grimeland-coding/index/index.phtml:111
+#: ../view/grimeland-coding/index/index.phtml:120
 msgid "Clean Code Workshops"
 msgstr ""
 
+#: ../view/grimeland-coding/index/index.phtml:123
+msgid "brief grimeland coding clean code workshops"
+msgstr ""
+"I offer Clean Code workshops that shows principles and benefits of "
+"practicing Clean Code."
+
+#: ../view/grimeland-coding/index/index.phtml:132
+msgid "describe grimeland coding clean code workshops"
+msgstr ""
+"Clean Code workshops encourages teamwork and opens up for dialogue around "
+"the concepts of Clean Code, which is the practice to make code look pretty, "
+"elegant and easy to read. A lot based on the works and practices of Robert ."
+"C Martin."
+
 #: ../view/grimeland-coding/index/index.phtml:135
+msgid "describe strength as coding clean code workshops"
+msgstr ""
+"I offer Clean Code workshops that shows principles and benefits of "
+"practicing Clean Code."
+
+#: ../view/grimeland-coding/index/index.phtml:147
 msgid "References"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:140
+#: ../view/grimeland-coding/index/index.phtml:154
 msgid "Sysco AS"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:143
+#: ../view/grimeland-coding/index/index.phtml:165
 msgid "describe grimeland coding sysco as"
 msgstr ""
-"Worked as lead developer and project manager, responsible for leading and "
-"coordinating developer teams for Norwegian projects from Sysco AS’ offshore "
-"office in Lima. I was also in charge of setting up and hosting workshops for "
-"best practices on a range of topics to increase quality and productivity."
+"Lead developer and project manager, responsible for leading and coordinating "
+"production development for Norwegian clients out of Sysco AS’ office in "
+"Lima. Was in charge of product QA and set up and hosted workshops on "
+"different topics in best practices to increase quality and productivity."
 
-#: ../view/grimeland-coding/index/index.phtml:150
+#: ../view/grimeland-coding/index/index.phtml:174
 msgid "Vidum AS"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:153
+#: ../view/grimeland-coding/index/index.phtml:186
 msgid "describe grimeland coding vidum"
 msgstr ""
-"Had the role as Scrum Master with responsibility for quality assurance and "
-"deployment. Worked specifically on implementing development processes to "
-"increase quality and ensure reliable releases."
+"Worked as Scrum Master with responsibility for quality assurance and "
+"deployment. Implemented development processes to increase quality and ensure "
+"reliable releases."
 
-#: ../view/grimeland-coding/index/index.phtml:159
+#: ../view/grimeland-coding/index/index.phtml:196
 msgid "PPlan"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:162
+#: ../view/grimeland-coding/index/index.phtml:208
 msgid "describe grimeland coding pplan"
 msgstr ""
-"Worked as Scrum Master as well as working close with the customer to "
-"finalize the product specification."
+"Worked as Scrum Master in addition to working close with the customer to "
+"finalize the product specification, including producing a mockup of the "
+"solution."
 
-#: ../view/grimeland-coding/index/index.phtml:168
+#: ../view/grimeland-coding/index/index.phtml:227
+msgid "describe grimeland coding orchestration"
+msgstr ""
+"Chief of development with the role of Lead developer and system architect "
+"for Orchestration’s product Conductor. Also worked as Senior Developer "
+"Consultant on enterprise projects."
+
+#: ../view/grimeland-coding/index/index.phtml:245
+msgid "describe grimeland coding meetv"
+msgstr ""
+"Worked as lead developer and was responsible for the continuous development "
+"of the system, including making architecture and technology decisions."
+
+#: ../view/grimeland-coding/index/index.phtml:253
+msgid "Onsite Solutions AS"
+msgstr ""
+
+#: ../view/grimeland-coding/index/index.phtml:265
+msgid "describe grimeland coding onsite"
+msgstr ""
+"Worked as system developer on advanced web based services and applications. "
+"Was responsible for coordinating and planning the technical aspects of "
+"various projects."
+
+#: ../view/grimeland-coding/index/index.phtml:273
 msgid "Avspark.no"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:171
+#: ../view/grimeland-coding/index/index.phtml:284
 msgid "describe grimeland coding avspark"
 msgstr ""
-"Worked as technical project manager and lead developer, responsible for "
-"complete system design, from architecture and technology stack to "
-"infrastructure and methodologies."
+"Was technical project manager and lead developer, responsible for complete "
+"system design, from architecture and technology stack to infrastructure and "
+"methodologies."
 
-#: ../view/grimeland-coding/index/index.phtml:177
-msgid "Orchestration AS"
-msgstr ""
-
-#: ../view/grimeland-coding/index/index.phtml:180
-msgid "describe grimeland coding orchestration"
-msgstr ""
-"Was Chief of development with the role of Lead developer and system "
-"architect for Orchestration’s product Conductor. Would also work as Senior "
-"Developer Consultant on enterprise projects."
-
-#: ../view/grimeland-coding/index/index.phtml:186
-msgid "MeeTV"
-msgstr ""
-
-#: ../view/grimeland-coding/index/index.phtml:189
-msgid "describe grimeland coding meetv"
-msgstr ""
-"I replaced the lead developer and was responsible for the continuous "
-"development of the system, including choice of architecture and technology."
-
-#: ../view/grimeland-coding/index/index.phtml:195
-msgid "Norsk-Tipping"
-msgstr ""
-
-#: ../view/grimeland-coding/index/index.phtml:198
-msgid "describe grimeland coding Norsk Tipping"
-msgstr ""
-"Worked as a senior developer and was involved as an advisor on architecture "
-"and technology decisions. Was lead developer for selected modules of the "
-"system."
-
-#: ../view/grimeland-coding/index/index.phtml:204
+#: ../view/grimeland-coding/index/index.phtml:291
 msgid "Conductor"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:207
+#: ../view/grimeland-coding/index/index.phtml:303
 msgid "describe grimeland coding conductor"
 msgstr ""
 "Worked as lead developer and Scrum Master. Was responsible for architecture, "
 "infrastructure and choosing technology. As Scrum Master implemented "
 "different development processes to improve quality and teamwork."
 
-#: ../view/grimeland-coding/index/index.phtml:213
-msgid "Onsite Solutions AS"
+#: ../view/grimeland-coding/index/index.phtml:311
+msgid "Norsk-Tipping"
 msgstr ""
 
-#: ../view/grimeland-coding/index/index.phtml:216
-msgid "describe grimeland coding onsite"
+#: ../view/grimeland-coding/index/index.phtml:323
+msgid "describe grimeland coding Norsk Tipping"
 msgstr ""
-"Worked as system developer on advanced web based services and applications. "
-"Was responsible for coordinating and the planning of the technical aspects "
-"of the projects."
+"Worked as a senior developer and was involved as an adviser on architecture "
+"and technology decisions. Was lead developer for selected modules of the "
+"system."
 
-#: ../view/grimeland-coding/index/index.phtml:227
+#: ../view/grimeland-coding/index/index.phtml:335
 msgid "contact grimeland coding"
 msgstr "Contact Grimeland Coding"
 
-#: ../view/grimeland-coding/index/index.phtml:230
+#: ../view/grimeland-coding/index/index.phtml:338
 msgid "contact-motivation"
 msgstr ""
 "Drop me a message, I am always looking for new challenges and opportunities."
+
+#~ msgid "learn more"
+#~ msgstr "more"
 
 #~ msgid "qualities-grimeland-coding"
 #~ msgstr ""
