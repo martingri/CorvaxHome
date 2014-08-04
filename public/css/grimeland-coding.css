@@ -6,6 +6,7 @@
 }
 .reference-img {
     height: 35px; 
+    margin-top: 15px;
 }
 
 p.about-text {
@@ -64,4 +65,23 @@ button.btn.collapsed > .fa-angle-double-down,
 button.btn > .fa-angle-double-up
 {
     display:block;
+}
+
+.btn-default {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid rgba(255,255,255,.2); 
+    background-color: rgba(255,255,255,.2);
+}
+
+h4 {
+    margin-bottom : 5px;
+}
+
+.references-section {
+    margin-bottom : 200px;
 }
